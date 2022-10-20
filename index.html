@@ -29,7 +29,7 @@
       <!-- add essa class -->
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <a class="navbar-brand" href="index.html">
-          <img> The FrontEnders
+          <img id="logo" src="./img/logo TheFrontEnders.png" style="width: 75px;"> The FrontEnders
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,10 +38,10 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link" id="home-menu" href="#">Inicio</span></a>
             <a class="nav-item nav-link" id="about-menu" href="#">Agência</a>
-            <a class="nav-item nav-link" id="services-menu" href="#">Serviços</a>
             <a class="nav-item nav-link" id="team-menu" href="#">Time</a>
-            <a class="nav-item nav-link" id="portfolio-menu" href="#">Projetos</a>
+            <a class="nav-item nav-link" id="portfolio-menu" href="#">Projeto</a>
             <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+            <a class="nav-item nav-link" id="login-menu" href="https://google.com">Login</a>
           </div>
         </div>
       </nav>
@@ -56,33 +56,30 @@
           <li data-target="#mainSlider" data-slide-to="1"></li>
           <li data-target="#mainSlider" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/banner2.jpg" class="d-block w-100" alt="Projetos">
+              <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/banner2.jpg" class="d-block w-100" alt="Projetos">
+          
      
 
             <!-- tirar classe d-none -->
-
-            <div class="carousel-caption d-md-block">
-              <h2>TheFrontEnders - Desenvolvedor Web Full Stack</h5>
+              <div class="carousel-caption d-md-block">
+              <h2>TheFrontEnders - Desenvolvedor Web Full Stack</h2>
               <p>Vá do zero até seus primeiros projetos como programador profissional.</p>
-              <a href="#" class="main-btn">Entre em contato</a>
             </div>
           </div>
           <div class="carousel-item">
             <img src="img/banner3.jpg" class="d-block w-100" alt="Dev Web Completo">
             <div class="carousel-caption d-md-block">
-              <h2>Conteúdo Dev Web Completo</h5>
+              <h2>Conteúdo Dev Web Completo</h2>
               <p>Saia do absoluto e aprenda tudo que você precisa para entrar no mercado de programação.</p>
-              <a href="#" class="main-btn">Entre em contato</a>
             </div>
           </div>
           <div class="carousel-item">
             <img src="img/banner1.jpg" class="d-block w-100" alt="Foco no iniciante">
             <div class="carousel-caption d-md-block">
-              <h2>Foco no iniciante</h5>
+              <h2>Foco no iniciante</h2>
               <p>Didática diferenciada e suporte personalizado para quem nunca escreveu uma linha de código.</p>
-              <a href="#" class="main-btn">Entre em contato</a>
             </div>
           </div>
         </div>
@@ -98,90 +95,97 @@
       <!-- Sobre a empresa -->
       <div id="about-area">
         <div class="container">
-          <h3 class="main-title">Sobre The FrontEnders</h3>
             <div class="row">
               <div class="col-12"> 
-               
+                   <h3 class="main-title">Sobre The FrontEnders</h3>
               </div>
-              <div class="col-md-6">
-                <img class="img-fluid" src="img/agencia.jpg" alt="Agência TheFrontEnders">
+              <div class="col-md-6" class="card-body">
+                <img class="img-fluid" src="img/Logo.gif" alt="Agência TheFrontEnders">
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6" class="card-body">
                 <h3 class="about-title">Uma agência que pensa no seu futuro</h3>
-                <p>Nossos projetos são adaptados ao cliente e seu propósito.</p>
-                <p>Aprenda a organizar o conteúdo do seu sistema web com nossos cursos.</p>
-                <p>Abordagem didática e prática, sempre tendo como objetivo te fazer entender como aplicar o conceito em projetos no mundo real.</p>
-                <p>Veja outros diferenciais:</p>
-                <ul id="about-list">
-                  <li><i class="fas fa-check"></i> Utilização de Machine Learning / AI</li>
-                  <li><i class="fas fa-check"></i> Layout responsivo para todos os dispositivos</li>
-                  <li><i class="fas fa-check"></i> Integração com diversos sistemas do mercado</li>
-                  <li><i class="fas fa-check"></i> Desenvolvimento com metodologia ágil</li>
-                </ul>
+                <p>Atualmente é muitos difícil existir uma área que não use softwares direta ou indiretamente. Os Software estão presentes no sistema do seu aplicativo bancário, na faculdade, nos jogos eletrônico e etc.</p>
+                <p>Com o intuito de te ajudar você em dar os primeiros passos e ingressar nesse mundo tecnológico nós estamos aqui para te ensinar do zero todo os conceitos fundamentais para você imergir no mundo da programação começando pela qualificação de um desenvolvedor Full-Stack.</p> 
+                <p>Em parcerias com instituições educacionais o FrontEnders oferece cursos de programação para alunos sem experiência com um conteúdo acessível e online.</p>
+                <p>Você quer atuar no mercado que está entre os que mais cresce no Brasil e no mundo? Então venha conosco!</p>
               </div>
             </div>
           </div>
       </div>
-      <!-- Serviços da empresa -->
-      <div id="services-area">
+      <!-- Portfólio -->
+      <div id="portfolio-area">
         <div class="container">
-          <h3 class="main-title">O que você vai aprender?</h3>
           <div class="row">
-            <div class="col-12">
-              
+            <div class="col-md-12">
+              <h3 class="main-title">O que você aprenderá?</h3>
             </div>
-            <div class="col-md-4 service-box">
-              <img class="logo.html" src="./img/logo.html.png" atl="html">
-              <h4>HTML 5</h4>
-              <p>Aprenda a organizar o conteúdo do seu sistema web com o HTML. Você aprenderá a criar Sections, Formulários e mais.</p>
+            <div class="col-md-12" id="filter-btn-box">
+              <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+              <button class="main-btn filter-btn" id="dev-btn">Front-End</button>
+              <button class="main-btn filter-btn" id="dsg-btn">Back-End</button>
             </div>
-            <div class="col-md-4 service-box">
-              <img class="logo.css" src="./img/logo.css.png" atl="css">
-              <h4>CSS 3</h4>
+
+            <div class="col-md-6 project-box dev">
+              <img src="img/logo.html.png" class="logos" alt="Projeto 1">
+                <h5>HTML 5</h5>
+                <p>Aprenda a organizar o conteúdo do seu sistema web com o HTML. Você aprenderá a criar Sections, Formulários e mais.</p>
+              </div>
+            <div class="col-md-6 project-box dev">
+              <img src="img/logo.css.png" class="logos" alt="Projeto 2">
+              <h5>CSS 3</h5>
               <p>Aprenda a dar estilo e design ao seu projeto com o mais atual do CSS. Você aprenderá Flexbox, Grid, animações e muito mais.</p>
             </div>
-            <div class="col-md-4 service-box">
-              <img class="logo.js" src="./img/logo.js.png" atl="js">
-              <h4>JAVASCRIPT</h4>
-              <p>Crie sistemas profissionais e repletos de interatividade com o JavaScript. Você vai dominar orientação a objetos, filter, map, reducer, promises e mais.</p>
-            </div>
-            <div class="col-md-4 service-box">
-              <img class="logo.html" src="./img/logo.jquery.png" atl="jquery">
-              <h4>JQUERY</h4>
+            <div class="col-md-6 project-box dev">
+              <img src="img/logo.jquery.png" class="logos" alt="Projeto 3">
+              <h5>JQUERY</h5>
               <p>Ganhe agilidade com o jQuery, criando soluções com menos linhas de código. Ideal para não ficar perdido quando for dar manutenção em sistemas já criados.</p>
             </div>
-            <div class="col-md-4 service-box">
-              <img class="logo.html" src="./img/logo.bootstrap.png" atl="bootstrap">
-              <h4>BOOTSTRAP</h4>
-              <p>Use componentes padronizados e estilosos no seu projeto com o Bootstrap. Assim você criará interfaces muito mais rapidamente.</p>
-            </div>
-            <div class="col-md-4 service-box">
-              <img class="logo.html" src="./img/logo.react.png" atl="react">
-              <h4>REACT</h4>
+            <div class="col-md-6 project-box dev">
+              <img src="img/logo.react.png" class="logos" alt="Projeto 5">
+              <h5>REACT</h5>
               <p>Domine a criação de aplicativos web com o React e Redux. Desde aplicações simples às mais complexas com usos de Rotas protegidas e muito mais.</p>
             </div>
+            <div class="col-md-6 project-box dev">
+              <img src="img/logo.js.png" class="logos" alt="Projeto 6">
+              <h5>JAVASCRIPT</h5>
+              <p>Domine a criação de aplicativos web com o React e Redux. Desde aplicações simples às mais complexas com usos de Rotas protegidas e muito mais.</p>
+            </div>
+            <div class="col-md-6 project-box dev">
+                <img src="img/logo.bootstrap.png" class="logos" alt="Projeto 7">
+                <h5>BOOTSTRAP</h5>
+                <p>Use componentes padronizados e estilosos no seu projeto com o Bootstrap. Assim você criará interfaces muito mais rapidamente.</p>
+              </div>
+              <div class="col-md-6 project-box dsg">
+                  <img src="img/logo.firebase.png" class="logos" alt="Projeto 8">
+                  <h5>FIREBASE</h5>
+                  <p>Aprenda esta solução completa de back end para aplicações mobile e web. Armazene seus dados com o Firestore e seus arquivos com o Firebase Storage.</p>
+                </div>
+                <div class="col-md-6 project-box dsg">
+                    <img src="img/logo.nodejs.png" class="logos" alt="Projeto 9">
+                    <h5>NODEJS</h5>
+                    <p>Crie sistemas web dinâmicos e complexos que rodam no back end. Faça aplicações utilizando REST, Socket, Express e outros módulos.</p>
+                  </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
       <!-- Dados da empresa -->
       <div id="data-area">
         <div class="container">
           <div class="row">
             <div class="col-md-3 col-xs-6 circle-box">
-              <div id="circleA"></div>
+              <div id="circleA" class="circles"></div>
               <p>Projetos entregues</p>
             </div>
             <div class="col-md-3 col-xs-6 circle-box">
-              <div id="circleB"></div>
+              <div id="circleB" class="circles"></div>
               <p>Alunos Felizes</p>
             </div>
             <div class="col-md-3 col-xs-6 circle-box">
-              <div id="circleC"></div>
+              <div id="circleC" class="circles"></div>
               <p>Colaboradores</p>
             </div>  
             <div class="col-md-3 col-xs-6 circle-box">
-              <div id="circleD"></div>
+              <div id="circleD" class="circles"></div>
               <p>Empregos Gerados</p>
             </div>
           </div>
@@ -190,21 +194,20 @@
       <!-- Time -->
       <div id="team-area">
         <div class="container">
-           <h3 class="main-title">Nosso time</h3>
           <div class="row">
             <div class="col-12">
-              
+              <h3 class="main-title">Nosso time</h3>
             </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="img/profile1.jpg" class="card-img-top" alt="Imagem de Perfil 1">
-                <div class="card-body">
-                  <h5 class="card-title">Matheus Valviesse</h5>
-                  <p class="card-text">Software Developer</p>
-                </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/profile1.jpg" class="card-img-top" alt="Imagem de Perfil 1">
+              <div class="card-body">
+                <h5>Matheus Valviesse</h5>
+                <p>Software Developer</p>
               </div>
             </div>
-            <div class="col-md-3">
+          </div>
+            <div class="col-md-4">
               <div class="card">
                 <img src="img/profile2.jpg" class="card-img-top" alt="Imagem de Perfil 2">
                 <div class="card-body">
@@ -213,7 +216,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
               <div class="card">
                 <img src="img/profile3.jpg" class="card-img-top" alt="Imagem de Perfil 3">
                 <div class="card-body">
@@ -222,7 +225,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
               <div class="card">
                 <img src="img/profile4.jpg" class="card-img-top" alt="Imagem de Perfil 4">
                 <div class="card-body">
@@ -231,7 +234,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
               <div class="card">
                 <img src="img/lucas1.jpeg" class="card-img-top" alt="Imagem de Perfil 1">
                 <div class="card-body">
@@ -243,7 +246,7 @@
           </div>
         </div>
       </div>
-      <!-- Trabalhe conosco -->
+      <!-- Beneficios -->
       <div id="apply-area">
         <div class="container-fluid">
           <div class="row">
@@ -251,43 +254,73 @@
             <div class="col-md-6 apply-box" id="pattern-img">
               <h4>Benefícios exclusivos e imperdiveis</h4>
               <p>Vídeo-aulas 100% online, disponíveis 24 horas por dia, que se ajustam aos seus horários e ritmo de estudo</p>
-              <p>Clique no botão abaixo e confira os benefícios e as posições em aberto.</p>
-              <p>Aqui você terá a chance de estudar com as melhores tecnologias e os profissionais mais capacitados.</p>
-              <a href="#" class="main-btn" id="apply-btn">Saiba Mais</a>
+              <p>Clique no botão abaixo e aqui você terá a chance de estudar com as melhores tecnologias e os profissionais mais capacitados.</p>
+              <a href="https://google.com" class="main-btn" id="apply-btn">Inscreva-se</a>
             </div>
           </div>
         </div>
       </div>
-      <!-- Portfólio -->
-      <div id="portfolio-area">
+    
+      <!-- Alunos -->
+      <div id="team-area">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
-              <h3 class="main-title">Conheça nossos cursos</h3>
+            <div class="col-12">
+               <h3 class="main-title">Nossos alunos</h3>
             </div>
-            <div class="col-md-12" id="filter-btn-box">
-              <button class="main-btn filter-btn active" id="all-btn">Todos</button>
-              <button class="main-btn filter-btn" id="dev-btn">Desenvolvimento</button>
-              <button class="main-btn filter-btn" id="dsg-btn">Design</button>
-              <button class="main-btn filter-btn" id="seo-btn">Jogos Digitais</button>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="img/aluno1.jpg" class="card-img-top" alt="Imagem de Perfil 1">
+                <div class="card-body">
+                  <h5 class="card-title">Julia Silva</h5>
+                  <p class="card-text">"Eu não tenho formação acadêmica mas o que eu aprendi aqui eu usei para mostrar ao empregador que eu estaria capacitada."</p>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4 project-box dev">
-              <img src="img/proj1.jpg" class="img-fluid" alt="Projeto 1">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="img/aluno2.jpg" class="card-img-top" alt="Imagem de Perfil 2">
+                <div class="card-body">
+                  <h5 class="card-title">Vinicius Souza</h5>
+                  <p class="card-text">"Com uma ótima didática e um conteúdo muito abrangente. Melhor curso que já encontrei. Muito completo."</p>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4 project-box dsg">
-              <img src="img/proj2.jpg" class="img-fluid" alt="Projeto 2">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="img/aluno3.jpg" class="card-img-top" alt="Imagem de Perfil 3">
+                <div class="card-body">
+                  <h5 class="card-title">Ricardo Barcelos</h5>
+                  <p class="card-text">"Me sinto bem confortável e estou conseguindo evoluir bastante, obrigado pelo suporte nota 1000."</p>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4 project-box seo">
-              <img src="img/proj3.jpg" class="img-fluid" alt="Projeto 3">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="img/aluno4.jpg" class="card-img-top" alt="Imagem de Perfil 4">
+                <div class="card-body">
+                  <h5 class="card-title">Lucas Antonio</h5>
+                  <p class="card-text">"Eu estava totalmente perdido, só programava na faculdade e quase não aprendia nada, pra quem está começando, super recomendo!"</p>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4 project-box dev">
-              <img src="img/proj4.jpg" class="img-fluid" alt="Projeto 4">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="img/aluno5.jpg" class="card-img-top" alt="Imagem de Perfil 5">
+                <div class="card-body">
+                  <h5 class="card-title">Larissa Menezes</h5>
+                  <p class="card-text">"Aprendendo melhor aqui do que na faculdade."</p>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4 project-box dsg">
-              <img src="img/proj5.jpg" class="img-fluid" alt="Projeto 5">
-            </div>
-            <div class="col-md-4 project-box seo">
-              <img src="img/proj6.jpg" class="img-fluid" alt="Projeto 6">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="img/aluno6.jpg" class="card-img-top" alt="Imagem de Perfil 6">
+                <div class="card-body">
+                  <h5 class="card-title">Bianca Andrade</h5>
+                  <p class="card-text">"Esse é disparadamente o melhor curso que ja fiz."</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -296,7 +329,7 @@
       <div id="call-area">
         <div class="container">
             <div class="row">
-              <p>Pronto para se tornar um programador profissional?</p>
+              <p>Pronto para se tornar um programador?</p>
               <button class="main-btn" id="call-btn">Inscreva-se agora</button>
             </div>
           </div>
@@ -309,11 +342,11 @@
       <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h3 class="main-title">Entre em contato conosco</h3>
+              <h3 class="main-title">Entre em contato</h3>
             </div>
             <div class="col-md-4 contact-box">
               <i class="fas fa-phone"></i>
-              <p><span class="contact-tile">Ligue para:</span> (48)99999-9999</p>
+              <p><span class="contact-tile">Ligue para:</span> (21)0000-0000</p>
               <p><span class="contact-tile">Horários:</span> 8:00 - 19:00</p>
             </div>
             <div class="col-md-4 contact-box">
@@ -323,7 +356,6 @@
             <div class="col-md-4 contact-box">
               <i class="fas fa-map-marker-alt"></i>
               <p><span class="contact-tile">Endereços:</span> Rua Barcelos Domingos - 1314</p>
-              <p> Rua das Árvores - 1516</p>
             </div>
             <div class="col-md-6" id="msg-box">
               <p>Ou nos deixe uma mensagem:</p>
