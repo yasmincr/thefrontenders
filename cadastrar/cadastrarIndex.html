@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="cadastrarStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="cadastrarScript.js" defer></script>
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center" id="form-cadastro">
+
+
+            <div class="col-12 col-md-8 ">
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <h1 class="cadsstro text-center">Cadastro</h1>
+
+                        <form>
+
+                            <div class="form-group">
+                                <input autocomplete="off" class="form-control border-dark rounded-0" type="text" id="nome" name="nome" placeholder="Nome Completo">
+                                <div class="invalid-feedback 01">
+                                    Nome não pode possuir menos que 4 caracteres
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <input autocomplete="off" class="form-control border-dark rounded-0" type="email" id="email" name="email" placeholder="E-mail">
+                                <div class="invalid-feedback 02">
+                                    Nome não pode possuir menos que 4 caracteres
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <div class="form-row">
+
+                                    <div class="form-group col-md-4">
+                                        <input class="form-control border-dark rounded-0" type="text" id="rg" name="rg" placeholder="RG" onkeypress="$(this).mask('00.000.000-00')">
+                                        <div class="invalid-feedback 03">
+                                            Nome não pode possuir menos que 4 caracteres
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md-4">
+                                        <input class="form-control border-dark rounded-0" type="date" id="data" name="data">
+                                        <div class="invalid-feedback 04">
+                                            Nome não pode possuir menos que 4 caracteres
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="form-row">
+
+                                    <div class="form-group col-md-3">
+                                        <input class="form-control border-dark rounded-0" type="text" id="cep" name="cep" placeholder="CEP" onkeypress="$(this).mask('00000-000')">
+                                        <div class="invalid-feedback 05">
+                                            Nome não pode possuir menos que 4 caracteres
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md">
+                                        <input class="form-control border-dark rounded-0" type="text" id="endereco" name="endereco" placeholder="Endereço" disabled>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-row">
+
+                                    <div class="col-md-2 form-group">
+                                        <input class="form-control border-dark rounded-0" type="text" id="estado" name="estado" placeholder="Estado" disabled>
+                                    </div>
+
+                                    <div class="col-md-3 form-group">
+                                        <input class="form-control border-dark rounded-0" type="text" id="cidade" name="cidade" placeholder="Cidade" disabled>
+                                    </div>
+
+                                    <div class="col-md-3 form-group">
+                                        <input class="form-control border-dark rounded-0" type="text" id="bairro" name="bairro" placeholder="Bairro" disabled>
+                                    </div>
+
+                                    <div class="col-md-4 form-group">
+                                        <input class="form-control border-dark rounded-0" type="text" id="complemento" name="complemento" placeholder="Complemento" disabled>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+                                <input class="form-control border-dark rounded-0" type="password" id="senha" name="senha" placeholder="Senha">
+                                <div class="invalid-feedback 06">
+                                    Nome não pode possuir menos que 4 caracteres
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input class="form-control border-dark rounded-0" type="password" id="confirmarSenha" name="confirmarSenha" placeholder="Confirmar Senha">
+                                <div class="invalid-feedback 07">
+                                    Nome não pode possuir menos que 4 caracteres
+                                </div>
+                            </div>
+
+                            <div class="form-group text-center">
+                                <button type="submit" class="btn btn-dark">Cadastrar</button>
+
+                            </div>
+
+                        </form>
+
+                        <div class="alert-danger d-none">
+                            Prencha o campo XXX
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

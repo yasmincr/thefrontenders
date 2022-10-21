@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://fametro.edu.br/storage/2021/06/imagem_2021-06-23_103417.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.card{
+    background-color: #d9d9d9ab;
+}
+
+.form-group{
+    outline: none;
+}
+
+#email, 
+#senha{
+
+    background-color: #d9d9d960;
+    outline: none;
+    background-color:transparent;
+    border: none;
+    border-bottom:solid 3px;
+    font-size: 1.2rem;
+    box-shadow: none;
+}
+
+.btn{
+    font-size: 1.2rem;
+    padding: 0.3rem 1.5rem;
+}
+
+a{
+    color: black;
+}
+
+.invalid-feedback,
+.valid-feedback,
+.alert{
+    font-size: 1.2rem
+}
